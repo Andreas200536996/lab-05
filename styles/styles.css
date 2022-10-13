@@ -24,11 +24,11 @@
 }
 
 .biography {
+    margin-left: auto;
+    margin-right: auto; 
     border: 1px solid rgb(250, 4, 4);
     border-radius: 15px 50px 30px 5px;
     background-color: aqua;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
     font-family: 'Montserrat', serif;
 }
@@ -36,9 +36,6 @@
 #body figure{
     width: 300px;
     margin-right: 0.8em;
-    margin-top: 1.2em;
-    margin-bottom:1.2em;
-
 }
 
 .biography figure{
@@ -60,6 +57,7 @@ figure > img{
     margin-bottom: 1.2em;
     margin-right: 1.2em;
     color: rgb(235, 13, 13);
+    background-color: rgb(80,239,80);
 }
 
 #p2 > p {
@@ -71,4 +69,5 @@ figure > img{
 #p3 > p{
     margin-right: 1.2em;
     color: rgb(235, 13, 13);
+    background-color: rgb(80, 239, 80);
 }
